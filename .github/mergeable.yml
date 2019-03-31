@@ -21,6 +21,8 @@ mergeable:
         #  regex: '^v6\/'
         #begins_with:
         #  match: 'v6|v7|v8'
+        begins_with:
+          match: ['feat','imp', 'fix']
 
       - do: milestone
         no_empty:
