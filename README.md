@@ -1,1 +1,3 @@
 # release-drafter-config
+
+test
