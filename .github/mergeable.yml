@@ -1,1 +1,23 @@
- 
+version: 2
+mergeable:
+  - when: pull_request.*
+    validate:
+      - do: description
+        no_empty:
+          enabled: false
+
+      - do: title
+        must_exclude:
+          regex: ^\[WIP\]
+
+      - do: label
+        must_exclude:
+          regex: 'wip|work in progress'
+
+      - do: project
+        no_empty:
+          enabled: true
+
+      - do: milestone
+        no_empty:
+          enabled: true
