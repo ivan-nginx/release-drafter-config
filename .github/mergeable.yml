@@ -17,6 +17,8 @@ mergeable:
       - do: project
         no_empty:
           enabled: true
+        begins_with:
+          match: 'v6|v7|v8|v9|v10'
 
       - do: milestone
         no_empty:
