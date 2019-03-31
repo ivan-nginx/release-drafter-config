@@ -17,12 +17,12 @@ mergeable:
       - do: project
         no_empty:
           enabled: true
-        #must_include:
-        #  regex: '^v6\/'
+        must_include:
+          regex: 'feat|imp|fix'
         #begins_with:
         #  match: 'v6|v7|v8'
-        begins_with:
-          match: ['feat','imp', 'fix']
+        #begins_with:
+        #  match: ['feat','imp', 'fix']
 
       - do: milestone
         no_empty:
