@@ -17,8 +17,8 @@ mergeable:
       - do: project
         no_empty:
           enabled: true
-        must_include:
-          regex: '^v6\/'
+        #must_include:
+        #  regex: '^v6\/'
         #begins_with:
         #  match: 'v6|v7|v8'
 
