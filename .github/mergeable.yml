@@ -14,7 +14,7 @@ mergeable:
 
       - do: label
         must_include:
-          regex: 'feat|imp|fix|doc|loc'
+          regex: 'feat|imp|fix|doc|i18n'
         must_exclude:
           regex: 'wip|work in progress'
 
