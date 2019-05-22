@@ -1,29 +1,29 @@
-name-template: v$NEXT_MINOR_VERSION
-tag-template: v$NEXT_MINOR_VERSION
+name-template: 'v$NEXT_MINOR_VERSION'
+tag-template: 'v$NEXT_MINOR_VERSION'
 categories:
-  - title: 💥 Breaking Changes
-    label: Breaking Change
+  - title: '💥 Breaking Changes'
+    label: 'Breaking Change'
 
-  - title: 🌀 External Changes
-    label: External Change
+  - title: '🌀 External Changes'
+    label: 'External Change'
 
-  - title: 🌟 New Features
-    label: New Feature
+  - title: '🌟 New Features'
+    label: 'New Feature'
 
-  - title: ⭐ Features
-    label: Feature
+  - title: '⭐ Features'
+    label: 'Feature'
 
-  - title: 🛠 Improvements
-    label: Improvement
+  - title: '🛠 Improvements'
+    label: 'Improvement'
 
-  - title: 🐞 Bug Fixes
-    label: Bug Fix
+  - title: '🐞 Bug Fixes'
+    label: 'Bug Fix'
 
-  - title: 📖 Documentation
-    label: Docs
+  - title: '📖 Documentation'
+    label: 'Docs'
 
-  - title: 🌍 Localization
-    label: i18n
+  - title: '🌍 Localization'
+    label: 'i18n'
 
 change-template: '- $TITLE (#$NUMBER)'
 no-changes-template: '- No changes'
