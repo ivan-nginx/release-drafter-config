@@ -2,7 +2,7 @@ name-template: v$NEXT_MINOR_VERSION
 tag-template: v$NEXT_MINOR_VERSION
 categories:
   - title: 💥 Breaking Changes
-    label: 💥 Breaking Change
+    label: Breaking Change
 
   - title: 🌀 External Changes
     label: External Change
@@ -11,7 +11,7 @@ categories:
     label: New Feature
 
   - title: ⭐ Features
-    label: feature
+    label: Feature
 
   - title: 🛠 Improvements
     label: Improvement
