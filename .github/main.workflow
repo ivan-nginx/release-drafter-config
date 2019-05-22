@@ -1,20 +1,9 @@
 workflow "Push" {
   on = "push"
-  resolves = ["Run Tests", "Draft Release"]
-}
-
-action "Install Dependencies" {
-  uses = "docker://node:10"
-  runs = ["yarn", "install", "--frozen-lockfile"]
-}
-
-action "Run Tests" {
-  needs = ["Install Dependencies"]
-  uses = "docker://node:10-alpine"
-  runs = ["npm", "test"]
+  resolves = ["Draft Release"]
 }
 
 action "Draft Release" {
-  uses = "./"
+  uses = "toolmantim/release-drafter@v5.1.1"
   secrets = ["GITHUB_TOKEN"]
 }
