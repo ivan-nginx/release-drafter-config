@@ -3,16 +3,22 @@ tag-template: v$NEXT_MINOR_VERSION
 categories:
   - title: 💥 Breaking Changes
     label: Breaking Change
+
   - title: 🌟 New Features
     label: New Feature
+
   - title: ⭐ Features
     label: feature
+
   - title: 🛠 Improvements
     label: Improvement
+
   - title: 🐞 Bug Fixes
     label: Bug Fix
+
   - title: 📖 Documentation
     label: Docs
+
   - title: 🌍 Localization
     label: i18n
 
@@ -23,4 +29,4 @@ template: |
 
   ***
 
-  For full changes, see the [comparison between $PREVIOUS_TAG and $NEXT_MINOR_VERSION](../../compare/v$PREVIOUS_TAG...v$NEXT_MINOR_VERSION)
+  For full changes, see the [comparison between $PREVIOUS_TAG and $NEXT_MINOR_VERSION](../../compare/$PREVIOUS_TAG...v$NEXT_MINOR_VERSION)
