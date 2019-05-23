@@ -2,12 +2,13 @@
 
 name-template: v$NEXT_MINOR_VERSION
 tag-template: v$NEXT_MINOR_VERSION
+
 categories:
   - title: 💥 Breaking Changes
-    label: Breaking Change
+    label: 💥 Breaking Change
 
   - title: 🌀 External Changes
-    label: External Change
+    label: 🌀 External Change
 
   - title: 🌟 New Features
     label: New Feature
